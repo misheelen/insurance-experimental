@@ -103,3 +103,14 @@ body, h1, h2, p, ul, li {
     padding: 20px;
     text-align: center;
   }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .gallery img {
+    width: calc(33% - 10px);
+    margin-bottom: 15px;
+  }

@@ -38,6 +38,9 @@ jspm_packages/
 # TypeScript v1 declaration files
 typings/
 
+# Figures
+figures/
+
 # Optional npm cache directory
 .npm
 
@@ -75,3 +78,9 @@ dist
 
 # FuseBox cache
 .fusebox/
+
+# unnecessary package file
+package-lock.json
+
+# Mac file
+.DS_Store 
